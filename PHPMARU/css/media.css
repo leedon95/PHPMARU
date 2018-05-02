@@ -1,0 +1,89 @@
+/* 여기서부터 회원가입 폼 */
+
+@media screen and (max-width: 1920px) {
+  .SignUp_form{background-color:#ffffff;
+  width:800px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 1000px) {
+  .SignUp_form{background-color:#ffffff;
+  width:600px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 700px) {
+  .SignUp_form{background-color:#ffffff;
+  width:400px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+/* 여기서부터 로그인 폼 */
+
+@media screen and (max-width: 1920px) {
+  .login_form{background-color:#ffffff;
+  width:800px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 1000px) {
+  .login_form{background-color:#ffffff;
+  width:600px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 700px) {
+  .login_form{background-color:#ffffff;
+  width:400px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+/* 여기서부터 수정 폼 */
+
+@media screen and (max-width: 1920px) {
+  .modify_form{background-color:#ffffff;
+  width:800px;
+  height: 550px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 1000px) {
+  .modify_form{background-color:#ffffff;
+  width:600px;
+    height: 550px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}
+
+@media screen and (max-width: 700px) {
+  .modify_form{background-color:#ffffff;
+  width:400px;
+    height: 550px;
+  margin:30px auto;
+  padding: 20px;
+  border:1px solid #e5e5e5;
+  box-shadow: rgba(200,200,200,.7) 0 5px 10px 2px;}
+}

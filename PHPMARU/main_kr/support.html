@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>Support Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="importcss.css" rel="stylesheet">
+	<style>
+
+	/* default */
+	*, html {
+		margin:0;
+		padding:0;
+	}
+	.textbox {
+		position:relative;
+		min-height:780px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:cover;
+		overflow:hidden;
+		margin:0;
+	}
+	.textbox .intext {
+	  color: #fff;
+	  text-align: center;
+	  position: absolute;
+	  -webkit-transform: translateY(-50%);
+	  -moz-transform: translateY(-50%);
+	  -ms-transform: translateY(-50%);
+	  -o-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
+	.intext h3{
+		font-family:'arial';
+		color:#222;
+		font-size:65px;
+		text-align:center;
+	}
+	.intext p{
+		margin-top:12px;
+		padding-left:5px;
+		padding-right:5px;
+		line-height:32px;
+		font-size:24px;
+		text-align:center;
+		color:#fff;
+	}
+	.icon{
+		text-align:center;
+		margin-top:10px;
+		height:118px;
+		margin:0 auto;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="ms1" class="textbox" style='background-image:url("../img/11.jpg")'>
+			<section class="intext" style="left:50%;top:50%;">
+				<h3>Welcome!</h3>
+				<p>마루웨어에 투자하세요. 후회하실 일 없습니다.</p>
+			</section>
+		</div>
+		<div id="ms2" class="textbox" style='background-image:url("../img/bg_4.jpg")'>
+			<section class="intext" style="right:50%;top:50%;">
+				<h3 style="color:#999;">New Block Chain</h3>
+				<p>마루웨어만의 독자적인 블록체인 솔루션에 주목하세요.<br>
+				마루웨어는 당신을 기다리고 있습니다.</p>
+					<a href="introduce.php" class="ghost-buttonNav" style="width:300px;">보고싶어요</a>
+			</section>
+		</div>
+		<div id="ms3" class="textbox " style='background-image:url("../img/bg_3.png")'>
+			<section class="intext" style="top:35%; left:38%">
+					<h3>MARUWARE</h3>
+					<p>당신의 선택은 틀리지 않습니다.<br>
+					환영합니다.</p>
+						<a href="#" class="ghost-buttonNav" style="width:300px;">후원하기</a>
+		</center>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script>
+		$(function() {
+			$('.icon img').hover(function() {
+				$(this).attr('src', $(this).attr('src').replace('.png', '_over.png'));
+			}, function() {
+				$(this).attr('src', $(this).attr('src').replace('_over.png', '.png'));
+			});
+		});
+	</script>
+	<div style="height:250px;background-color:#000;color:#fff;font-size:36px; text-align:center;">
+	    <br>
+	     우리를 후원해주세요!
+			<br>
+			<br>
+				<a href="main.php" class="ghost-buttonNav" style="width:450px;">홈페이지로 돌아가기</a>
+	</div>
+</body>
+</html>
